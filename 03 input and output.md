@@ -40,13 +40,31 @@ i'm like actually confused. this is probably useless for small programs like min
 #include <string>
 
 int main() {
-int age;
-std::string full_name;
+ int age;
+ std::string full_name;
 
 // the way
-std::getline(std::cin,full_name);
-std::cin >> age;
-std::cout << "name: " << full_name << " age: " << age << std::endl;
-    return 0; 
+ std::cout << "full name: ";
+ std::getline(std::cin,full_name);
+ std::cout << "age: ";
+ std::cin >> age;
+
+ if (age < 20) {
+ std::cout << "hello, " << full_name << "! you are now " << age  << " years old!" << std::endl;
+} else if (age > 20) {
+ std::cout << "hello, " << full_name << "! you are now " << age  << " years old! you're basically a fossil now!" << std::endl; // we do abit of tomfoolery
+}
+
+//if youre boring, then
+// std::cout << "hello, " << full_name << "! you are now " << age  << " years old!" << std::endl;
+
+ return 0; 
 }
 ```
+output:
+```
+full name: justin basicbitch
+age: 21
+hello, justin basicbitch! you are now 21 years old!
+```
+so yeah this is the final product.
