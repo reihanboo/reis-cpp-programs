@@ -15,10 +15,11 @@ int main() {
 }
 ```
 
-returns:
+output:
 ```
 15
 15
 15
 15
 ```
+yeah gl doing this. did you know that using windows' programmer calculator (select it from burger), you can convert all of these numbers?
