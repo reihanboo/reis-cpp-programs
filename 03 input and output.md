@@ -55,7 +55,7 @@ int main() {
  std::cout << "hello, " << full_name << "! you are now " << age  << " years old! you're basically a fossil now!" << std::endl; // we do abit of tomfoolery
 }
 
-//if youre boring, then
+//if youre boring, remove the if statement and only put:
 // std::cout << "hello, " << full_name << "! you are now " << age  << " years old!" << std::endl;
 
  return 0; 
