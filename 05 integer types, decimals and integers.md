@@ -34,7 +34,7 @@ int main() {
 }
 ```
 
-result:
+output:
 ```
 0
 14
