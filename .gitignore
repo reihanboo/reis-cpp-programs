@@ -31,5 +31,7 @@
 *.out
 *.app
 
-# uhh..
+# this is for automatically commit and pushing my folder to github. 
+# here's what's inside the .bat file: https://stackoverflow.com/a/53079331
+# using this to automatically open the .bat file: https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10
 *.bat
